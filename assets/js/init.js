@@ -105,9 +105,6 @@ function createHouse() {
 		console.log(currentRoom);
 	}
 
-	var currentRoom = randomRoom(roomArray);
-
-	console.log(currentRoom);
 }
 
 function randomLayout() {
