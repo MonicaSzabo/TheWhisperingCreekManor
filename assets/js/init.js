@@ -105,10 +105,16 @@ function createHouse() {
 		console.log(currentRoom);
 	}
 
+	randomLayout();
+
 }
 
 function randomLayout() {
+	var layoutArray = [];
 
+	var layout = layoutArray[Math.floor(Math.random() * layoutArray.length)]
+
+	console.log(layout);
 }
 
 function randomRoom(roomArray) {
